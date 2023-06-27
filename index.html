@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فتوکده</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body dir="rtl" class="bg-main">
+    <!-- header -->
+    <header id="header" class="mt-3 bg-white">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-between white-shadow py-4 px-0 d-flex align-items-center"
+          >
+            <div class="col-12 col-md-1 d-flex">
+              <a href="#" title="فتوکده " class="logo">
+                <img
+                  class="header-logo"
+                  src="images/global/main-logo.png"
+                  alt="لوگو"
+                />
+              </a>
+            </div>
+
+            <div class="banner-advertise rounded"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 border-top">
+            <div
+              class="col-12 bg-white white-shadow rounded10 py-2 d-flex align-items-center justify-content-between"
+            >
+              <div class="d-flex">
+                <div id="mainSubmenu" class="position-relative">
+                  <span
+                    class="f15 l25-43 fw-bold cursor-pointer d-flex align-items-center"
+                  >
+                    صفحه نخست
+                  </span>
+                  <div
+                    id="submenu"
+                    class="position-absolute z-3 bg-white rounded10 white-shadow2"
+                  >
+                    <div class="col-12 d-flex">
+                      <ul
+                        id="submenuTabs"
+                        class="d-flex flex-column p-3 list-unstyled m-0"
+                      >
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم اول
+                          <ul class="child position-absolute">
+                            <li class="subItem"><a href="#">آیتم دوم</a></li>
+                            <li class="subItem"><a href="#">آیتم اول</a></li>
+                            <li class="subItem">
+                              <a href="#">آیتم نمونه اول</a>
+                            </li>
+                            <li class="subItem"><a href="#">آیتم دوم</a></li>
+                            <li class="subItem"><a href="#">آیتم نمونه</a></li>
+                            <li class="subItem">
+                              <a href="#">آیتم نمونه اول</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم نمونه
+                        </li>
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم نمونه
+                        </li>
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم نمونه
+                        </li>
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم نمونه
+                        </li>
+                        <li
+                          href="#"
+                          class="f13 l22 text-black p-2 rounded10 cursor-pointer position-relative"
+                        >
+                          آیتم نمونه
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <nav id="mainNav" class="f14 l23-74">
+                  <a href="#" class="text-black px-2 transition2">اخبار</a>
+                  <a href="#" class="text-black px-2 transition2"
+                    >فرهنگ و هنر</a
+                  >
+                  <a href="#" class="text-black px-2 transition2">سرگرمی</a>
+                  <a href="#" class="text-black px-2 transition2">خانواده</a>
+                  <a href="#" class="text-black px-2 transition2"
+                    >تناسب اندام</a
+                  >
+                  <a href="#" class="text-black px-2 transition2">دنیای مد</a>
+                  <a href="#" class="text-black px-2 transition2">سلامت</a>
+                  <a href="#" class="text-black px-2 transition2">آشپزخانه</a>
+                  <a href="#" class="text-black px-2 transition2">فناوری</a>
+                </nav>
+              </div>
+
+              <div class="d-flex justify-content-end align-items-center">
+                <svg
+                  class="ms-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="#FF7A00"
+                  class="bi bi-brightness-high"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  fill="#0A93CD"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header  -->
+
+    <!--section 1-->
+    <div class="container mt-3">
+      <div class="row box">
+        <div class="col-xl-6 col-lg-9">
+          <img
+            height="495px"
+            class="object-fit-cover w-100 rounded-15"
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="col-xl-3 col-lg-3 d-flex flex-column justify-content-between"
+        >
+          <img
+            height="230px"
+            class="object-fit-cover w-100 rounded-15"
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt=""
+          />
+          <img
+            height="230px"
+            class="object-fit-cover w-100 rounded-15"
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt=""
+          />
+        </div>
+        <div class="col-xl-3 col-lg-12">
+          <div class="mini-article bigger-img d-flex mb-3 align-items-center">
+            <img
+              src="images/global/image_processing20220224-15116-d1yzyn.png"
+              alt="article"
+            />
+            <p class="f15 me-2 l22-05">
+              بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+            </p>
+          </div>
+          <div class="mini-article bigger-img d-flex mb-3 align-items-center">
+            <img
+              src="images/global/image_processing20220224-15116-d1yzyn.png"
+              alt="article"
+            />
+            <p class="f15 me-2 l22-05">
+              بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+            </p>
+          </div>
+          <div class="mini-article bigger-img d-flex mb-3 align-items-center">
+            <img
+              src="images/global/image_processing20220224-15116-d1yzyn.png"
+              alt="article"
+            />
+            <p class="f15 me-2 l22-05">
+              بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+            </p>
+          </div>
+          <div class="mini-article bigger-img d-flex mb-3 align-items-center">
+            <img
+              src="images/global/image_processing20220224-15116-d1yzyn.png"
+              alt="article"
+            />
+            <p class="f15 me-2 l22-05">
+              بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+            </p>
+          </div>
+
+          <div class="mini-article bigger-img d-flex mb-3 align-items-center">
+            <img
+              src="images/global/image_processing20220224-15116-d1yzyn.png"
+              alt="article"
+            />
+            <p class="f15 me-2 l22-05">
+              بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section 1-->
+
+    <!--section 2-->
+    <div class="container">
+      <div class="row box mt-2">
+        <div class="mini-article d-flex col-4 align-items-center">
+          <img
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt="article"
+          />
+          <p class="f15 me-2 l22-05">
+            بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+          </p>
+        </div>
+        <div class="mini-article d-flex col-4 align-items-center">
+          <img
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt="article"
+          />
+          <p class="f15 me-2 l22-05">
+            بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+          </p>
+        </div>
+        <div class="mini-article d-flex col-4 align-items-center">
+          <img
+            src="images/global/image_processing20220224-15116-d1yzyn.png"
+            alt="article"
+          />
+          <p class="f15 me-2 l22-05">
+            بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--section 2-->
+
+    <!--section 3-->
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-8">
+          <div class="box row">
+            <div
+              class="title-icon d-flex align-items-center align-items-center mb-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="#FF7A00"
+                class="bi bi-newspaper"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"
+                />
+                <path
+                  d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"
+                />
+              </svg>
+              <p class="text-title f24 fw-7 me-2 mb-0">اخبار روز</p>
+            </div>
+
+            <div class="news-card col-6">
+              <img
+                class="w-100 object-fit-cover rounded-15"
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt=""
+              />
+              <p class="f26 mt-1">
+                قیمت طلا، قیمت دلار، قیمت سکه و قیمت ارز ۱۰ خرداد
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6 pe-0">
+              <div class="box">
+                <div
+                  class="title-icon d-flex align-items-center align-items-center mb-3"
+                >
+                  <svg
+                    width="34"
+                    height="35"
+                    viewBox="0 0 34 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="pizza-slice 1">
+                      <path
+                        id="Vector"
+                        d="M19.833 13.7281L19.8472 13.7126M11.333 12.3115L11.3472 12.2959M11.333 20.8115L11.3472 20.7959"
+                        stroke="#49C393"
+                        stroke-width="2.125"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M8.49951 27.8805L3.16718 5.21947C3.13305 5.07459 3.13756 4.92329 3.18026 4.7807C3.22297 4.63811 3.30237 4.50923 3.41052 4.40696C3.51867 4.30469 3.65178 4.23262 3.79653 4.19794C3.94128 4.16327 4.0926 4.16722 4.23535 4.20939L26.9162 10.8805"
+                        stroke="#49C393"
+                        stroke-width="2.125"
+                      />
+                      <path
+                        id="Vector_3"
+                        d="M31.447 12.8992C31.5261 12.5833 31.5421 12.2549 31.4943 11.9328C31.4465 11.6107 31.3356 11.3012 31.1682 11.0219C31.0007 10.7426 30.7799 10.499 30.5183 10.3051C30.2567 10.1112 29.9595 9.97065 29.6436 9.89159C29.3277 9.81252 28.9993 9.79645 28.6772 9.84429C28.3551 9.89213 28.0456 10.0029 27.7663 10.1704C27.487 10.3379 27.2435 10.5587 27.0495 10.8203C26.8556 11.0819 26.7151 11.3791 26.636 11.695C26.0821 13.9163 23.9443 17.4325 20.6478 20.7263C17.3894 23.986 13.3548 26.6678 9.35975 27.59C9.03857 27.6593 8.73436 27.7917 8.46482 27.9796C8.19527 28.1675 7.96576 28.4071 7.78963 28.6844C7.6135 28.9618 7.49425 29.2714 7.43884 29.5953C7.38342 29.9192 7.39293 30.2508 7.46682 30.5709C7.54071 30.8911 7.6775 31.1934 7.86924 31.4602C8.06098 31.727 8.30385 31.9531 8.58372 32.1252C8.86359 32.2973 9.17489 32.4121 9.49951 32.4628C9.82414 32.5136 10.1556 32.4993 10.4747 32.4208C15.688 31.2181 20.5075 27.879 24.154 24.2325C27.7651 20.6214 30.5857 16.3445 31.447 12.8992Z"
+                        stroke="#49C393"
+                        stroke-width="2.125"
+                        stroke-linecap="round"
+                      />
+                    </g>
+                  </svg>
+
+                  <p class="text-title f24 fw-7 me-2 mb-0">آشپزی</p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 ps-0">
+              <div class="box">
+                <div
+                  class="title-icon d-flex align-items-center align-items-center mb-3"
+                >
+                  <svg
+                    width="34"
+                    height="35"
+                    viewBox="0 0 34 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="apple-half 1">
+                      <path
+                        id="Vector"
+                        d="M17.2079 31.0892L16.9997 31.0467L16.7914 31.0892C13.424 31.7622 10.2464 31.3867 7.92309 29.5309C5.61534 27.6822 3.89551 24.1589 3.89551 17.9638C3.89551 11.6271 5.32351 9.053 7.20342 8.11233C8.18801 7.62075 9.46017 7.47767 11.078 7.66325C12.6944 7.85025 14.5602 8.35458 16.6639 9.05583L17.0323 9.17767L17.3935 9.03317C20.9097 7.62783 24.0703 7.08808 26.2902 8.12508C28.3727 9.0955 30.1038 11.7206 30.1038 17.9638C30.1038 24.1603 28.3854 27.6822 26.0763 29.5295C23.7529 31.3882 20.5753 31.7636 17.2079 31.0892Z"
+                        stroke="#0A93CD"
+                        stroke-width="2.125"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M17 8.75545C17 5.21379 15.5833 3.79712 12.75 3.79712"
+                        stroke="#0A93CD"
+                        stroke-width="2.125"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        id="Vector_3"
+                        d="M17 9.46387V30.7139"
+                        stroke="#0A93CD"
+                        stroke-width="2.125"
+                      />
+                      <path
+                        id="Vector_4"
+                        d="M21.25 17.9639V20.7972"
+                        stroke="#0A93CD"
+                        stroke-width="2.125"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+
+                  <p class="text-title f24 fw-7 me-2 mb-0">سلامت</p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box row mt-3">
+            <div
+              class="title-icon d-flex align-items-center align-items-center mb-3"
+            >
+              <svg
+                width="34"
+                height="35"
+                viewBox="0 0 34 35"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="cinema-old 1">
+                  <path
+                    id="Vector"
+                    d="M9.91634 20.7612C10.6678 20.7612 11.3885 20.4627 11.9198 19.9314C12.4512 19.4 12.7497 18.6793 12.7497 17.9279C12.7497 17.1765 12.4512 16.4558 11.9198 15.9244C11.3885 15.3931 10.6678 15.0946 9.91634 15.0946C9.16489 15.0946 8.44422 15.3931 7.91287 15.9244C7.38152 16.4558 7.08301 17.1765 7.08301 17.9279C7.08301 18.6793 7.38152 19.4 7.91287 19.9314C8.44422 20.4627 9.16489 20.7612 9.91634 20.7612ZM24.083 20.7612C24.8345 20.7612 25.5551 20.4627 26.0865 19.9314C26.6178 19.4 26.9163 18.6793 26.9163 17.9279C26.9163 17.1765 26.6178 16.4558 26.0865 15.9244C25.5551 15.3931 24.8345 15.0946 24.083 15.0946C23.3316 15.0946 22.6109 15.3931 22.0795 15.9244C21.5482 16.4558 21.2497 17.1765 21.2497 17.9279C21.2497 18.6793 21.5482 19.4 22.0795 19.9314C22.6109 20.4627 23.3316 20.7612 24.083 20.7612ZM16.9997 13.6779C17.7511 13.6779 18.4718 13.3794 19.0031 12.848C19.5345 12.3167 19.833 11.596 19.833 10.8446C19.833 10.0931 19.5345 9.37245 19.0031 8.84109C18.4718 8.30974 17.7511 8.01123 16.9997 8.01123C16.2482 8.01123 15.5276 8.30974 14.9962 8.84109C14.4649 9.37245 14.1663 10.0931 14.1663 10.8446C14.1663 11.596 14.4649 12.3167 14.9962 12.848C15.5276 13.3794 16.2482 13.6779 16.9997 13.6779ZM16.9997 27.8446C17.7511 27.8446 18.4718 27.5461 19.0031 27.0147C19.5345 26.4833 19.833 25.7627 19.833 25.0112C19.833 24.2598 19.5345 23.5391 19.0031 23.0078C18.4718 22.4764 17.7511 22.1779 16.9997 22.1779C16.2482 22.1779 15.5276 22.4764 14.9962 23.0078C14.4649 23.5391 14.1663 24.2598 14.1663 25.0112C14.1663 25.7627 14.4649 26.4833 14.9962 27.0147C15.5276 27.5461 16.2482 27.8446 16.9997 27.8446Z"
+                    stroke="#D6293E"
+                    stroke-width="2.125"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    id="Vector_2"
+                    d="M2.83301 17.9279C2.83301 25.7521 9.17542 32.0946 16.9997 32.0946C24.8239 32.0946 31.1663 25.7521 31.1663 17.9279C31.1663 10.1036 24.8239 3.76123 16.9997 3.76123C9.17542 3.76123 2.83301 10.1036 2.83301 17.9279ZM2.83301 17.9279V32.0946"
+                    stroke="#D6293E"
+                    stroke-width="2.125"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+
+              <p class="text-title f24 fw-7 me-2 mb-0">فرهنگ و هنر</p>
+            </div>
+
+            <div class="news-card col-6">
+              <img
+                class="w-100 object-fit-cover rounded-15"
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt=""
+              />
+              <p class="f26 mt-1">
+                قیمت طلا، قیمت دلار، قیمت سکه و قیمت ارز ۱۰ خرداد
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+              <div class="mini-article d-flex align-items-center mb-3">
+                <img
+                  src="images/global/image_processing20220224-15116-d1yzyn.png"
+                  alt="article"
+                />
+                <p class="f15 me-2 l22-05">
+                  بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-6 pe-0">
+              <div class="box">
+                <div
+                  class="title-icon d-flex align-items-center align-items-center mb-3"
+                >
+                  <svg
+                    width="34"
+                    height="35"
+                    viewBox="0 0 34 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="house-heart 1">
+                      <path
+                        id="Vector"
+                        d="M17.0004 14.9787C20.5364 11.4236 29.3786 17.6435 17.0004 25.642C4.6223 17.6435 13.4644 11.4236 17.0004 14.9787Z"
+                        fill="#6610F2"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M18.502 3.32969C18.1035 2.93131 17.5631 2.70752 16.9996 2.70752C16.4361 2.70752 15.8957 2.93131 15.4972 3.32969L1.37236 17.4524C1.17314 17.6519 1.06132 17.9224 1.06152 18.2044C1.06172 18.4863 1.17392 18.7567 1.37343 18.9559C1.57294 19.1551 1.84342 19.2669 2.12537 19.2667C2.40732 19.2665 2.67764 19.1543 2.87686 18.9548L4.24961 17.5821V28.8297C4.24961 29.6751 4.58544 30.4858 5.18321 31.0836C5.78098 31.6814 6.59174 32.0172 7.43711 32.0172H26.5621C27.4075 32.0172 28.2182 31.6814 28.816 31.0836C29.4138 30.4858 29.7496 29.6751 29.7496 28.8297V17.5821L31.1224 18.9548C31.3216 19.1543 31.5919 19.2665 31.8739 19.2667C32.1558 19.2669 32.4263 19.1551 32.6258 18.9559C32.8253 18.7567 32.9375 18.4863 32.9377 18.2044C32.9379 17.9224 32.8261 17.6519 32.6269 17.4524L27.6246 12.4523V5.45469C27.6246 5.1729 27.5127 4.90265 27.3134 4.70339C27.1142 4.50413 26.8439 4.39219 26.5621 4.39219H24.4371C24.1553 4.39219 23.8851 4.50413 23.6858 4.70339C23.4866 4.90265 23.3746 5.1729 23.3746 5.45469V8.20232L18.502 3.32969ZM27.6246 15.4571V28.8297C27.6246 29.1115 27.5127 29.3817 27.3134 29.581C27.1142 29.7803 26.8439 29.8922 26.5621 29.8922H7.43711C7.15532 29.8922 6.88507 29.7803 6.68581 29.581C6.48656 29.3817 6.37461 29.1115 6.37461 28.8297V15.4571L16.9996 4.83207L27.6246 15.4571Z"
+                        fill="#6610F2"
+                      />
+                    </g>
+                  </svg>
+
+                  <p class="text-title f24 fw-7 me-2 mb-0">خانواده</p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 ps-0">
+              <div class="box">
+                <div
+                  class="title-icon d-flex align-items-center align-items-center mb-3"
+                >
+                  <svg
+                    width="37"
+                    height="38"
+                    viewBox="0 0 37 38"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="basketball-field 1">
+                      <path
+                        id="Vector"
+                        d="M18.4997 8.60034H32.9913C33.1128 8.60034 33.2331 8.62427 33.3453 8.67075C33.4576 8.71724 33.5595 8.78537 33.6454 8.87127C33.7313 8.95716 33.7994 9.05913 33.8459 9.17136C33.8924 9.28359 33.9163 9.40387 33.9163 9.52534V29.2587C33.9163 29.3801 33.8924 29.5004 33.8459 29.6127C33.7994 29.7249 33.7313 29.8269 33.6454 29.9128C33.5595 29.9986 33.4576 30.0668 33.3453 30.1133C33.2331 30.1598 33.1128 30.1837 32.9913 30.1837H18.4997M18.4997 8.60034H4.00801C3.76268 8.60034 3.52741 8.6978 3.35393 8.87127C3.18046 9.04474 3.08301 9.28002 3.08301 9.52534V29.2587C3.08301 29.504 3.18046 29.7393 3.35393 29.9128C3.52741 30.0862 3.76268 30.1837 4.00801 30.1837H18.4997M18.4997 8.60034V30.1837"
+                        stroke="#49C393"
+                        stroke-width="2.125"
+                      />
+                      <path
+                        id="Vector_2"
+                        d="M3.08301 27.1005C5.12739 27.1005 7.08803 26.2884 8.53362 24.8428C9.97922 23.3972 10.7913 21.4365 10.7913 19.3922C10.7913 17.3478 9.97922 15.3871 8.53362 13.9416C7.08803 12.496 5.12739 11.6838 3.08301 11.6838M33.9163 27.1005C31.872 27.1005 29.9113 26.2884 28.4657 24.8428C27.0201 23.3972 26.208 21.4365 26.208 19.3922C26.208 17.3478 27.0201 15.3871 28.4657 13.9416C29.9113 12.496 31.872 11.6838 33.9163 11.6838M18.4997 24.0172C17.273 24.0172 16.0967 23.5299 15.2293 22.6625C14.3619 21.7952 13.8747 20.6188 13.8747 19.3922C13.8747 18.1655 14.3619 16.9892 15.2293 16.1218C16.0967 15.2544 17.273 14.7672 18.4997 14.7672C19.7263 14.7672 20.9027 15.2544 21.77 16.1218C22.6374 16.9892 23.1247 18.1655 23.1247 19.3922C23.1247 20.6188 22.6374 21.7952 21.77 22.6625C20.9027 23.5299 19.7263 24.0172 18.4997 24.0172Z"
+                        stroke="#49C393"
+                        stroke-width="2.125"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+
+                  <p class="text-title f24 fw-7 me-2 mb-0">ورزش</p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+                <div class="mini-article d-flex align-items-center mb-3">
+                  <img
+                    src="images/global/image_processing20220224-15116-d1yzyn.png"
+                    alt="article"
+                  />
+                  <p class="f15 me-2 l22-05">
+                    بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="box">
+            <div class="title-icon d-flex align-items-center mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                fill="#3CC0F8"
+                class="bi bi-bookmark-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.84 4.1a.178.178 0 0 1 .32 0l.634 1.285a.178.178 0 0 0 .134.098l1.42.206c.145.021.204.2.098.303L9.42 6.993a.178.178 0 0 0-.051.158l.242 1.414a.178.178 0 0 1-.258.187l-1.27-.668a.178.178 0 0 0-.165 0l-1.27.668a.178.178 0 0 1-.257-.187l.242-1.414a.178.178 0 0 0-.05-.158l-1.03-1.001a.178.178 0 0 1 .098-.303l1.42-.206a.178.178 0 0 0 .134-.098L7.84 4.1z"
+                />
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                />
+              </svg>
+              <p class="text-title f24 fw-7 m-0 me-2">همچنین بخوانید</p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="title-icon d-flex align-items-center mb-3 mt-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                fill="#3CC0F8"
+                class="bi bi-bookmark-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.84 4.1a.178.178 0 0 1 .32 0l.634 1.285a.178.178 0 0 0 .134.098l1.42.206c.145.021.204.2.098.303L9.42 6.993a.178.178 0 0 0-.051.158l.242 1.414a.178.178 0 0 1-.258.187l-1.27-.668a.178.178 0 0 0-.165 0l-1.27.668a.178.178 0 0 1-.257-.187l.242-1.414a.178.178 0 0 0-.05-.158l-1.03-1.001a.178.178 0 0 1 .098-.303l1.42-.206a.178.178 0 0 0 .134-.098L7.84 4.1z"
+                />
+                <path
+                  d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                />
+              </svg>
+              <p class="text-title f24 fw-7 m-0 me-2">حمایت شده</p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+
+            <div class="mini-article d-flex mb-3">
+              <img
+                src="images/global/image_processing20220224-15116-d1yzyn.png"
+                alt="article"
+              />
+              <p class="f15 me-2 l22-05">
+                بیوگرافی جرمی کلارکسون مجری و همسرش با ناگفته ها
+              </p>
+            </div>
+            <div class="w-100 bg-gray h-260 rounded-15 mt-5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--section 3-->
+
+    <!-- footer -->
+
+    <footer id="footer" class="mt-3 box">
+      <div class="container d-flex col-12 p-4 pb-5 text-white">
+        <div class="col-6">
+          <img
+            class="footer-logo"
+            src="images/global/main-logo.png"
+            alt="logo"
+          />
+          <ul class="d-flex f14 text-black p-0 mt-3">
+            <li class="cursor-pointer active">صفحه نخست</li>
+            <li class="me-2 cursor-pointer">همکاری با ما</li>
+            <li class="me-2 cursor-pointer">تبلیغات</li>
+            <li class="me-2 cursor-pointer">درباره ما</li>
+            <li class="me-2 cursor-pointer">تماس با ما</li>
+          </ul>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+          <img class="ms-2" src="images/global/footer-namad-1.png" alt="logo" />
+          <img src="images/global/footer-namad-2.png" alt="لوگو" />
+        </div>
+      </div>
+      <div class="container d-flex justify-content-between f14 border-top pt-3">
+        <p>
+          استفاده از مطالب اختصاصی سایت فتوکده در سایر رسانه ها فقط با کسب مجوز
+          امکان پذیر است.
+        </p>
+        <p>طراحی و تولید: هشت بهشت</p>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
