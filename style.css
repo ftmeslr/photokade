@@ -59,6 +59,12 @@
 .bg-blue {
   background-color: #3cc0f8;
 }
+.bg-red {
+  background: #d62a3e;
+}
+.bg-green {
+  background-color: #49c393;
+}
 
 .text-blue {
   color: #3cc0f8;
@@ -400,6 +406,60 @@ header #headContact:hover #headAssistants {
   background: #f5fbff;
   padding: 6px 15px 6px 15px;
   margin-left: 15px;
+}
+
+.main-linear-gradient {
+  background: linear-gradient(#0000000d, #d62a3e57);
+}
+.second-linear-gradient {
+  background: linear-gradient(#ffffff16, #49c3929a);
+}
+.second-linear-gradient p,
+.third-linear-gradient p,
+.main-linear-gradient p {
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 15px;
+  width: fit-content;
+  color: #fff;
+}
+
+.third-linear-gradient {
+  background: linear-gradient(#ffffff16, #ff3c0053);
+}
+
+.mini-circle {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: 3px;
+}
+
+.img-tag {
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  height: 30px;
+  margin: auto;
+}
+
+.main-img-tag {
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  height: 30px;
+  margin: auto;
 }
 
 @media (min-width: 576px) {
